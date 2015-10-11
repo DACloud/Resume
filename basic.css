@@ -181,6 +181,8 @@
   height: 200px;
 }
 .experience p{
+  column-count:2;
+  -moz-column-count:2;
   -webkit-column-count: 2;
   }
 }

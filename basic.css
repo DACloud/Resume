@@ -1,0 +1,231 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Microsoft YaHei","微软雅黑"
+}
+/* 头像边框 */
+.introduction{
+  padding: 3% 0 3% 0;
+  background: url("images/introduction.png");
+  /*background-color: rgb(164,207,212)*/
+  background-size:cover;
+}
+.introduction .head_image{
+  margin: 30px auto;
+
+  border:2px solid white;
+  width:150px;
+  height:150px;
+  overflow:hidden;
+  border-radius:75px;
+}
+/* 头像样式 */
+.introduction .head_image img{
+  display:block;
+  width:150px;
+}
+.introduction h1{
+  margin-bottom: 1%;
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: normal;
+  color: white;
+}
+.introduction h3{
+  margin-bottom: 1%;
+  text-align: center;
+
+  font-weight: normal;
+  color: white;
+}
+.introduction h2{
+  margin-bottom:1%;
+
+  text-align: center;
+  color: white;
+}
+.introduction .tel{
+  margin-bottom: 5%;
+}
+.skills{
+  padding:5% 0 7% 0;
+  width: 100%;
+  position: relative;
+}
+.skills .title{
+  width: 100px;
+  position: absolute;
+  top:5%;
+  left:5%;
+  padding: 3px 0;
+
+  background-color: rgb(85,190,161);
+
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255,255,255);
+}
+.basicSkills{
+  width: 50%;
+}
+.skills .skills_sub {
+  margin: 6% 0 5% 10%;
+  width:80%;
+  height:40px;
+  position:relative;
+
+  list-style: none;
+  border: 1px solid rgba(171,171,171,0.3);
+  border-left:3px solid rgb(111,179,18);
+
+}
+.skills .skills_sub .content{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:33;
+  margin-left: 5px;
+
+  width:50px;
+
+  color:rgb(87,127,19);
+  line-height: 40px;
+}
+.skills .skills_sub .colorLine{
+   height:40px;
+   background-color:rgb(230,246,198);
+}
+.skills .basic{
+  border-left:4px solid rgb(43,132,210);
+}
+.skills .basic .content{
+  color:rgb(35,105,153);
+}
+.skills .basic .colorLine{
+  background: rgb(225,244,254);
+}
+.skills .assistantSkills{
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top:0;
+  padding: 5% 0 5% 0;
+}
+/*SIDEDOWN部分*/
+.skills .slideDown{
+  position: absolute;
+  z-index: 333;
+  left: 50%;
+  top: 0;
+
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 23px;
+
+  display: none;
+}
+.skills .slideDown .triangel{
+  margin:0 auto;
+  width:0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color: rgba(231, 231,231, 0.75);
+  position: relative;
+}
+.skills .slideDown .square{
+  width: 320px;
+  padding: 10px 10px;
+  position: absolute;
+  top:15px;
+  left: 0;
+  margin-left: -170px;
+
+  background-color: rgba(231, 231,231, 0.75);
+}
+.skill .slideDown .square p{
+  color:#2b2b2b;
+}
+
+
+/*在校经历样式*/
+.experience{
+  padding: 1% 0 3% 0;
+  background-color: rgb(61,163,185);
+}
+.experience .title{
+  width: 100px;
+  margin: 1.5% 0 0 5%;
+  padding: 3px 3px;
+
+  font-size: 18px;
+  text-align: center;
+  color: white;
+
+  background-color:rgb(85,190,161);
+}
+.experience p{
+  width:80%;
+  height: 100px;
+  margin:50px auto;
+
+  font-size: 16px;
+  color:white;
+  line-height: 30px;
+}
+.experience p span{
+  color: rgb(224,246,186);
+}
+@media screen and (min-width:1440px){
+.experience{
+  height: 200px;
+}
+.experience p{
+  -webkit-column-count: 2;
+  }
+}
+@media screen and (max-width:1439px){
+  .experience{
+    height: 420px;
+  }
+  .experience p{
+    width:50%;
+  }
+}
+/*联系部分开始*/
+.contact{
+    padding-top: 1%;
+}
+.contact .title{
+  width: 100px;
+  margin: 1.5% 0 0 5%;
+  padding: 3px 3px;
+
+  font-size: 18px;
+  text-align: center;
+  color: white;
+
+  background-color:rgb(85,190,161);
+}
+.contact .content{
+  width: 80%;
+  height: 200px;
+  margin: 40px auto;
+}
+.contact h4{
+  display: inline-block;
+  padding: 1% 1%;
+  margin:1% 3%;
+
+  color:white;
+  font-weight: normal;
+
+  background-color: rgb(72,179,144)
+}
+.contact h4 span{
+  color:rgb(224,246,186);
+}
+.contact h4 a{
+  color:white;
+  font-weight: normal;
+}
